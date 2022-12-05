@@ -7,24 +7,30 @@
 function devolverString(str) {
     // "Return" la string provista: str
     // Tu código:
+    return str
   }
-  
+  devolverString ("natalia")
+
+
   function suma(x, y) {
     // "x" e "y" son números
     // Suma "x" e "y" juntos y devuelve el valor
     // Tu código:
+    return (x + y)
   }
-  
+  suma(4,6)
   function resta(x, y) {
     // Resta "y" de "x" y devuelve el valor
     // Tu código:
+    return(x - y)
   }
-  
+  resta(10,5)
   function multiplica(x, y) {
     // Multiplica "x" por "y" y devuelve el valor
     // Tu código:
+    return(x * y)
   }
-  
+  multiplica(2,6)
   function divide(x, y) {
     // Divide "x" entre "y" y devuelve el valor
     // Tu código:
@@ -34,12 +40,20 @@ function devolverString(str) {
     // Devuelve "true" si "x" e "y" son iguales
     // De lo contrario, devuelve "false"
     // Tu código:
+    if (x == y){
+    return true}
+   else{
+    return false}
   }
   
   function tienenMismaLongitud(str1, str2) {
     // Devuelve "true" si las dos strings tienen la misma longitud
     // De lo contrario, devuelve "false"
     // Tu código:
+    if (str1.length == str2.length)
+    return true
+    else 
+    return false
   }
   
   function menosQueNoventa(num) {
@@ -121,6 +135,7 @@ function devolverString(str) {
     // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
     // Ejemplo: "Soy", "Henry" -> "Soy Henry"
     // Tu código:
+    return nombre + " " + apellido
   }
   
   function obtenerSaludo(nombre) {
